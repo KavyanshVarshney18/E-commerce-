@@ -8,7 +8,10 @@ const Navbar = () => {
     <div className='flex items-center justify-between py-5 font-medium px-8'>
 
     {/* this is logo icon */}
+    <Link to='/'>
       <img src={assets.logo} className='w-48' alt='...'/>
+    </Link>
+    
 
 
     {/* this is for home ,collection, about ,contact section  */}
