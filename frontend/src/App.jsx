@@ -10,6 +10,8 @@ import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
+import OurPolicy from './components/OurPolicy'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -25,8 +27,9 @@ const App = () => {
         <Route path='/login' element={<Login/> }/>
         <Route path='/place-order' element={<Placeorder/> }/>
         <Route path='/orders' element={<Orders/> }/>
-
       </Routes>
+      <br></br>
+      <Footer/>
     </div>
   )
 }
